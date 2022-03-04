@@ -3,17 +3,17 @@
 <head>
     <meta charset="utf-8" />
     <title>
-        contact
+        fag
     </title>
 
-    <link href="Content/bootstrap.css" rel="stylesheet" />
-    <link href="Content/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/font/bootstrap-icons.css" rel="stylesheet" />
 
-    <link href="Content/Style.css" rel="stylesheet" />
+    <link href="../Content/Style.css" rel="stylesheet" />
 
 
-    <script src="Scripts/jquery-3.0.0.js"></script>
-    <script src="Scripts/bootstrap.bundle.js"></script>
+    <script src="../Scripts/jquery-3.0.0.js"></script>
+    <script src="../Scripts/bootstrap.bundle.js"></script>
 </head>
 <body>
 
@@ -21,7 +21,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
-                    <img alt="hinh minh hoa" class="img-fluid" src="Content/images/logo/eamt4free-store-2.png" />
+                    <img alt="hinh minh hoa" class="img-fluid" src="../Content/images/logo/eamt4free-store-2.png" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -29,25 +29,25 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="index.html">HOME</a>
+                            <a class="nav-link " aria-current="page" href="../index.html">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="ea-bot.html">EA BOT</a>
+                            <a class="nav-link" href="./ea-bot.html">EA BOT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="free-ea-bot.html">FREE EA BOT</a>
+                            <a class="nav-link" href="./free-ea-bot.html">FREE EA BOT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="free-copy-trade.html"> FREE COPY TRADE</a>
+                            <a class="nav-link" href="./free-copy-trade.html"> FREE COPY TRADE</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="blog.html">BLOG</a>
+                            <a class="nav-link" href="./blog.html">BLOG</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="fag.html">FAQ</a>
+                            <a class="nav-link active" href="./fag.html">FAQ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="contact.html">CONTACT</a>
+                            <a class="nav-link" href="./contact.html">CONTACT</a>
                         </li>
 
                     </ul>
@@ -57,41 +57,25 @@
     </header>
 
     <div class="content">
-        <section class="contact-banner">
-            <h1> CONTACT</h1>
+        <section class="fag-banner">
+            <h1>Flag</h1>
         </section>
 
-        <section class="contact-content">
+        <section class="fag-content">
             <div class="container">
-                <img alt="hinh minh hoa" src="Content/images/contact/home_eamt4free.png" />
+                <img alt="hinh minh hoa" class="img-fluid" src="../Content/images/faq/faq-eamt4free.png" />
+                <h2>FREQUENTLY ASKED QUESTIONS </h2>
+                <ol>
+                    <li onclick="showContents()">
+                        FREQUENTLY ASKED QUESTIONS
+                        <p id="content">mot san pham duoc tao boi Bap Minh Ngo</p>
+                    </li>
+                    <li><a href="#">How to Copy Trade EA Bot?</a></li>
+                    <li><a href="#">What VPS do you recommend?</a></li>
+                    <li><a href="#">What operating systes can I run EA Bot?</a></li>
+                    <li><a href="#"> How to dowloads EA Bot Free?</a></li>
 
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h3>Contact with us at Telegram chanel To support:</h3>
-                        <a href="#"> connecting to telegram</a>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <input type="text" name="name" value="" placeholder="your name" />
-                            </div>
-                            <div class="col-lg-6">
-                                <input type="text" name="name" value="" placeholder="your e-mail" />
-                            </div>
-
-                        </div>
-                        <input type="text" name="name" value="" placeholder="Subject" />
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <textarea placeholder="Mesages"> </textarea>
-                            </div>
-                        </div>
-                        <a class="btn btn-warning" href="#"> Send Mesages</a>
-                    </div>
-                </div>
+                </ol>
             </div>
         </section>
     </div>
@@ -101,7 +85,7 @@
             <div class="row">
                 <div class="col-lg-3 col-6">
 
-                    <img class="footer-img" alt="hinh minh hoa" src="Content/images/logo/eamt4free-store-2.png" />
+                    <img class="footer-img" alt="hinh minh hoa" src="../Content/images/logo/eamt4free-store-2.png" />
 
                     <ul>
                         <li>
@@ -158,9 +142,11 @@
         <div class="footer-bottom">
             © 2021 Eamt4free.com. All Rights Reserved.
         </div>
+        <div class="contact-for-us">
+            <a href="contact.html"><i class="bi bi-telephone"></i> <p>CONTACT FOR US</p> </a>
+        </div>
     </footer>
-    <div class="contact-for-us">
-        <a href="contact.html"><i class="bi bi-telephone"></i> <p>CONTACT FOR US</p> </a>
-    </div>
+    <script src="JavaScript.js"></script>
+    
 </body>
 </html>
